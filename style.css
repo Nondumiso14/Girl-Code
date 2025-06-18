@@ -1,33 +1,67 @@
 body{background-color: rgb(81, 4, 81);}
 .container{margin: 0 auto;
         background-color: rgba(16, 2, 2, 0.426);
-        max-width: 950px;
+        max-width: 80%;
         border-radius: 18px;
         font-family: Arial, sans-serif;
+        margin-bottom: 200px;
 
   padding: 20px;}
 
-h1 {text-align: center;
-    text-decoration: none;
-    color: azure;}
+h1 {
+    font-size: 2.5rem;
+    color: azure;
+    text-align: center;
+}
+
+h1 .highlight {
+    color: #ff6600; /* orange */
+    font-size: 3rem; /* larger than rest of the h1 */
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.name {
+    color: orange;/* Highlight your name in orange */
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: azure;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+
+
 
 
 
 nav ul{list-style: none;
- display: flex;
-  justify-content:center;
-  gap: 50px;
-
-  margin: 50px;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    color: azure;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-nav ul li a{text-decoration: none;
-    color: rgb(55, 1, 55);
-    padding: 5px;
-    border-radius: 10px;
-    background-color: azure;
-    transition: color 0.3s, background 0.3s;
-    cursor:pointer;
+nav ul li a {
+  text-decoration: none;
+  color: azure;
+  transition: background-color 0.3s, color 0.3s;
 }
 a:hover{background-color:rgb(16, 212, 39)};
 
